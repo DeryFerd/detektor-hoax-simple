@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Tampilkan spinner
         resultContainer.innerHTML = '<div class="spinner"></div>';
 
-        fetch('http://127.0.0.1:8000/predict', {
+        fetch('https://deryferd-detektor-hoax-app.hf.space/predict', {
             /* ... (sisa kode fetch tetap sama) ... */
             method: 'POST',
             headers: {
@@ -35,4 +35,5 @@ document.addEventListener('DOMContentLoaded', () => {
             resultContainer.innerHTML = '<p id="resultArea">Terjadi kesalahan. Pastikan server API Anda sudah berjalan.</p>';
         });
     });
+
 });
