@@ -1,1 +1,8 @@
-# detektor-hoax-simple
+---
+title: Detektor Hoax AI
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: fastapi
+app_file: app.py
+---
